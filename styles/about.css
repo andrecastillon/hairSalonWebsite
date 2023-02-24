@@ -141,7 +141,7 @@ main h1 span {
   padding: 15px 28px 12px;
 }
 
-h1 {
+main h1 {
   color: #fff;
   display: inline;
   font-family: poller_oneregular;
@@ -152,7 +152,7 @@ h1 {
   text-transform: uppercase;
 }
 
-img {
+main img {
   border: 2px solid #292929;
   margin: 24px 0 0;
   padding: 0;
