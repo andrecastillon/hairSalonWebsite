@@ -4,7 +4,7 @@ Mockup of a barber website
 Desktop
 - Header (Nav Bar) 
 - Footer
-3. MAIN Body
+- MAIN Body
 4. MAIN About
 5. MAIN Gallery
 6. MAIN BLOG

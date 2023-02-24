@@ -1,0 +1,202 @@
+body {
+  background: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1;
+  margin: 0;
+  min-width: 960px;
+  padding: 0;
+}
+
+.main-layout{
+  /* border: 1px solid red; */
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+a.logo{
+  color: -webkit-link;
+  cursor: pointer;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-family: "Arial Black", Gadget, sans-serif;;
+}
+
+a:hover {
+  color:#00A0C6; 
+  text-decoration:none; 
+  cursor:pointer;  
+}
+
+header {
+  margin: 0 auto;
+  padding: 44px 0 50px;
+  text-align: center;
+  width: 960px;
+}
+
+.navigation ul li {
+  display: inline;
+  list-style: none;
+  margin: 0;
+  padding: 0 19px;
+}
+
+.nav {
+  margin: 0;
+  padding: 56px 0 0;
+  text-align: center;
+}
+
+footer {
+  background: #252525;
+  margin: 0;
+  padding: 36px 0 42px;
+}
+
+footer div {
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+  width: 960px;
+}
+
+footer div p {
+  color: #fff;
+  float: left;
+  line-height: 44px;
+  margin: 0 0 0 10px;
+  padding: 0;
+}
+
+footer div ul {
+  display: block;
+  float: right;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  width: 256px;
+}
+
+footer div ul li {
+  display: block;
+  float: left;
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+  width: 44px;
+}
+
+footer div ul li a {
+  background: url(../images/icons.jpg) no-repeat 0 0;
+  display: block;
+  height: 44px;
+  margin: 0;
+  padding: 0;
+  text-indent: -99999px;
+  width: 44px;
+}
+
+footer div ul li #twitter {
+	background-position: 0 0;
+}
+footer div ul li #twitter:hover {
+	background-position: -44px 0;
+}
+footer div ul li #facebook {
+	background-position: 0 -44px;
+}
+footer div ul li #facebook:hover {
+	background-position: -44px -44px;
+}
+footer div ul li #googleplus {
+	background-position: 0 -88px;
+}
+footer div ul li #googleplus:hover {
+	background-position: -44px -88px;
+}
+footer div ul li #pinterest {
+	background-position: 0 -132px;
+}
+footer div ul li #pinterest:hover {
+	background-position: -44px -132px;
+}
+
+main {
+  margin: 0;
+  padding: 0 0 30px;
+  text-align: center;
+}
+
+main h1 span {
+  background: #252525;
+  display: inline-block;
+  padding: 15px 28px 12px;
+}
+
+h1 {
+  color: #fff;
+  display: inline;
+  font-family: poller_oneregular;
+  font-size: 35px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+img {
+  border: 2px solid #292929;
+  margin: 24px 0 0;
+  padding: 0;
+}
+
+.article {
+  margin: 0 auto;
+  padding: 30px 30px 0;
+  width: 560px;
+}
+
+.article h3 {
+  color: #252525;
+  line-height: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+div .article h3 {
+  color: #252525;
+  line-height: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  color: #252525;
+  line-height: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+.article p a {
+  color: #252525;
+  text-decoration: underline;
+  font-weight: normal;
+  font-family: revert;
+  text-transform: revert;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
