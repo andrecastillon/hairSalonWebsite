@@ -5,10 +5,10 @@ Desktop
 - Header (Nav Bar) 
 - Footer
 - MAIN Body
-4. MAIN About
-5. MAIN Gallery
-6. MAIN BLOG
-7. MAIN Contact
+- MAIN About
+- MAIN Gallery
+- MAIN BLOG
+- MAIN Contact
 
 Mobile
 8. Header (Nav)
