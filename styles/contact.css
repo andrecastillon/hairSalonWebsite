@@ -252,4 +252,31 @@ main form #send:hover {
     text-align: center;
   }
 
+  main h1 {
+    display: block;
+    font-size: 20px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+main h1 span {
+  display: block;
+  padding: 3%;
+  width: 94%;
+}
+
+main form {
+  width: 100%;
+}
+
+main form input, main form textarea {
+  margin: 0 0 20px;
+  padding: 10px;
+  width: 84%;
+}
+
+main form #send {
+  padding: 10px;
+}
+
 }
