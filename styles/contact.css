@@ -193,3 +193,63 @@ main form #send:hover {
   text-decoration:none; 
   cursor:pointer;  
 }
+
+/* mobile view */
+@media only screen and (max-width: 598px) {
+  body {
+    min-width: 0;
+  }
+
+  .main-layout {
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+  }
+
+  a.logo {
+    width: 80%;
+  }
+
+  a.logo img {
+    width: 100%;
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+
+  .nav li {
+    font-size: 200%;
+  }
+
+  footer {
+    padding: 10px 0 25px;
+  }
+
+  footer div {
+    overflow: visible;
+    width: 100%;
+  }
+
+  footer div p {
+    float: none;
+    margin: 0;
+    text-align: center;
+  }
+
+  footer div ul {
+    float: none;
+    margin: 0 auto;
+    width: 256px;
+  }
+
+  main {   
+    width: 100%;
+    margin: 0;
+    padding: 0 0 30px;
+    text-align: center;
+  }
+
+}

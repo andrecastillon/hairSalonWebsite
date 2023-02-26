@@ -16,7 +16,7 @@ Mobile
 - MAIN Body
 - MAIN About
 - MAIN Gallery
-13. MAIN BLOG
-14. MAIN Contact
+- MAIN BLOG
+- MAIN Contact
 
-15. FIN :)
+! FIN :)
